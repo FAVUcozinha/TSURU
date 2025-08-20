@@ -1,49 +1,93 @@
-# <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nosso Tsuru</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nosso Tsuru 💙🩵</title>
+
+  <!-- SEO e preview do link -->
+  <meta name="description" content="Um tsuru feito de cuidado, paciência e amor. Feliz 365 dias da gente. 💙🩵">
+  <meta property="og:title" content="Nosso Tsuru 💙🩵">
+  <meta property="og:description" content="Quero cuidar de tu e da gente como quem cuida de cada dobrinha.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a68cc">
+
   <style>
+    :root {
+      --bg: #f5faff;
+      --card: #ffffff;
+      --text: #2b2b2b;
+      --title: #0a68cc;
+      --accent: #6aa7ff;
+      --shadow: rgba(0,0,0,.08);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5faff;
-      color: #333;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
-      border-radius: 10px;
-      background: white;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(80vmax 80vmax at -10% -20%, var(--accent)10%, transparent 40%),
+        radial-gradient(60vmax 60vmax at 110% 120%, #bfe0ff 10%, transparent 45%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 32px 16px;
+      display: grid;
+      place-items: center;
     }
+
+    main {
+      width: 100%;
+      max-width: 820px;
+      background: var(--card);
+      border-radius: 16px;
+      padding: 28px 22px;
+      box-shadow: 0 12px 30px var(--shadow);
+      border: 1px solid #eef4ff;
+    }
+
     h1 {
-      color: #004080;
+      margin: 8px 0 18px;
       text-align: center;
+      font-size: clamp(1.6rem, 2.5vw, 2.1rem);
+      color: var(--title);
     }
-    p {
-      margin-bottom: 15px;
-      text-align: justify;
-    }
+
+    p { margin: 0 0 14px; text-align: justify; }
+
     .assinatura {
-      margin-top: 30px;
-      font-weight: bold;
-      color: #0066cc;
+      margin-top: 22px;
+      font-weight: 600;
       text-align: right;
+      color: var(--title);
+    }
+
+    footer {
+      margin-top: 18px;
+      text-align: center;
+      font-size: .9rem;
+      opacity: .7;
     }
   </style>
 </head>
 <body>
-  <h1>Nosso Tsuru 💙🩵</h1>
+  <main>
+    <h1>Nosso Tsuru 💙🩵</h1>
 
-  <p>O tsuru, ave sagrada na cultura japonesa, é símbolo de longevidade e de bons presságios. Quando feito em papel, cada dobra carrega a intenção de quem o cria, como se fosse um gesto silencioso de amor. Nas relações amorosas, ele representa o desejo de que o vínculo seja duradouro, resistente ao tempo e às mudanças, assim como a lenda que fala dos mil anos de vida do pássaro.</p>
+    <p>O tsuru, ave sagrada na cultura japonesa, é símbolo de longevidade e de bons presságios. Quando feito em papel, cada dobra carrega a intenção de quem o cria, como se fosse um gesto silencioso de amor. Nas relações amorosas, ele representa o desejo de que o vínculo seja duradouro, resistente ao tempo e às mudanças, assim como a lenda que fala dos mil anos de vida do pássaro.</p>
 
-  <p>Dobrar um tsuru exige delicadeza, paciência e atenção a cada detalhe, qualidades que também sustentam um relacionamento saudável. O cuidado em cada vinco do papel reflete a dedicação necessária para cultivar o amor, lembrando que a beleza de uma relação está na soma dos pequenos gestos diários, feitos com carinho e constância.</p>
+    <p>Dobrar um tsuru exige delicadeza, paciência e atenção a cada detalhe, qualidades que também sustentam um relacionamento saudável. O cuidado em cada vinco do papel reflete a dedicação necessária para cultivar o amor, lembrando que a beleza de uma relação está na soma dos pequenos gestos diários, feitos com carinho e constância.</p>
 
-  <p>Mesmo de papel, o tsuru carrega a força do voo. Ele simboliza a capacidade de seguir em frente, mesmo diante das dificuldades, elevando o amor acima dos obstáculos. Assim, o tsuru nos inspira a acreditar que, com cuidado, paciência e esperança, o amor pode sempre encontrar asas para continuar.</p>
+    <p>Mesmo de papel, o tsuru carrega a força do voo. Ele simboliza a capacidade de seguir em frente, mesmo diante das dificuldades, elevando o amor acima dos obstáculos. Assim, o tsuru nos inspira a acreditar que, com cuidado, paciência e esperança, o amor pode sempre encontrar asas para continuar.</p>
 
-  <p>Quero cuidar de tu e da gente como quem cuida com cuidado de cada dobrinha. Desculpas por ter começado nosso origami meio sem jeito e machucando tanto nosso papel. Mas fiz esse novo, com cuidado, com atenção e quero que ele reverbere e reflita nossa relação daqui para frente.</p>
+    <p>Quero cuidar de tu e da gente como quem cuida com cuidado de cada dobrinha. Desculpas por ter começado nosso origami meio sem jeito e machucando tanto nosso papel. Mas fiz esse novo, com cuidado, com atenção e quero que ele reverbere e reflita nossa relação daqui para frente. Um cheiro Mô Guigo, e feliz 365 dias da gente, pelo menos as partes boas! 💙🩵</p>
 
-  <p class="assinatura">Um cheiro Mô Guigo, e feliz 365 dias da gente, pelo menos as partes boas! 💙🩵</p>
+    <p class="assinatura">— Com carinho</p>
+
+    <footer>Feito com cuidado, paciência e amor.</footer>
+  </main>
 </body>
 </html>
